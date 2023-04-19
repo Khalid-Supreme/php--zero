@@ -7,8 +7,13 @@
 </head>
 <body>
     <h1>
-        <?php echo "Enle Araye!" ?> 
-        <!-- Yoruba Language -->
+        <?php 
+        $Intro = "My name is ";
+        // echo $Intro . 'Supreme.';
+        echo "$Intro Supreme";
+        
+        
+        ?> 
     </h1>
 </body>
 </html>
