@@ -6,35 +6,33 @@
 <head>
     <title>php -zero</title>
     <style>
-        body {
+        /* body {
             place-items: center;
             display: grid;
             height: 100vh;
             margin: 0;
             font-family: sans-serif;
-        }
+        } */
     </style>
 </head>
 
 <body>
     <?php
-    $food = "Jollof Rice and Plantain";
-    $hungry = true;
-
-    if($hungry){
-        $order = "I want to eat $food";
-    }else{
-        $order = "I am not hungry";
-    }
-
-
+    $cars = [
+        'Honda',
+        'Elantra ',
+        'Rolls-Royce',
+        'Mustang',
+        'Escalade',
+        'Sienna ',
+    ];
 
     ?>
-
-    <h1>
-        <?= $order ?>
-        
-    </h1>
+<ul>
+    <?php foreach ($cars as $car): ?>
+        <li><?= "{$car}™" ?></li>
+        <?php endforeach; ?>
+</ul>
 </body>
 
 </html>
