@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>
-        <?php echo "Enle Araye!" ?> 
+        <?php echo "Enle Araye!" ;?> 
         <!-- Yoruba Language -->
     </h1>
 </body>
