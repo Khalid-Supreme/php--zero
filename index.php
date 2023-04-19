@@ -17,6 +17,9 @@
 </head>
 
 <body>
+    <h1>
+        Her Cars Collection
+    </h1>
     <?php
     $cars = [
         'Honda',
@@ -28,11 +31,11 @@
     ];
 
     ?>
-<ul>
-    <?php foreach ($cars as $car): ?>
-        <li><?= "{$car}™" ?></li>
+    <ul>
+        <?php foreach ($cars as $car) : ?>
+            <li><?= "{$car}™" ?></li>
         <?php endforeach; ?>
-</ul>
+    </ul>
 </body>
 
 </html>
