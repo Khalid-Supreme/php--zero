@@ -2,13 +2,18 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>php -zero</title>
 </head>
+
 <body>
     <h1>
-        <?php echo "Enle Araye!" ;?> 
+        <?php 
+        echo "Enle Araye!"; 
+        ?>
         <!-- Yoruba Language -->
     </h1>
 </body>
+
 </html>
